@@ -15,21 +15,27 @@ export class ProductComponent implements OnInit, OnChanges, DoCheck, AfterConten
   ngOnChanges(changes: SimpleChanges): void {
     console.log('ngOnChanges')
   }
+
   ngDoCheck(): void {
     console.log('ngDoCheck')
   }
+
   ngAfterContentInit(): void {
     console.log('ngAfterContentInit')
   }
+
   ngAfterContentChecked(): void {
     console.log('ngAfterContentChecked')
   }
+
   ngAfterViewInit(): void {
     console.log('ngAfterViewInit')
   }
+
   ngAfterViewChecked(): void {
     console.log('ngAfterViewChecked')
   }
+
   ngOnDestroy(): void {
     console.log('ngOnDestroy')
   }
@@ -42,4 +48,5 @@ export class ProductComponent implements OnInit, OnChanges, DoCheck, AfterConten
     this.currentPrice++;
   }
 
+  
 }
